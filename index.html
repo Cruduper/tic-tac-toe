@@ -6,8 +6,54 @@
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
 
-  <title></title>
+  <title>Tic Tac Toe!</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div id="gridDiv">
+      <table class="grid">
+        <tr id="row0" class="row">
+          <td id="r0c0" class="squares"></td>
+          <td id="r0c1" class="squares"></td>
+          <td id="r0c2" class="squares"></td>
+        </tr>
+
+        <tr id="row1" class="row">
+          <td id="r1c0" class="squares"></td>
+          <td id="r1c1" class="squares"></td>
+          <td id="r1c2" class="squares"></td>
+        </tr>
+
+        <tr id="row2" class="row">
+          <td id="r2c0" class="squares"></td>
+          <td id="r2c1" class="squares"></td>
+          <td id="r2c2" class="squares"></td>
+        </tr>
+      </table>  
+    </div>
+
+    <form id="playerOne" class="playerBox">
+      <div class="form-group">
+        <label for="p1Name">Player 1, enter your name:<br> </label>
+        <input id="p1Name" type="text" required />
+        <button id="p1Button" type="button">P1 Name</button>
+      </div>
+    </form>
+
+    <div id="nameOne" class="names turnRed">
+      <p></p>
+    </div>
+
+    <div id="nameTwo" class="names">
+      <p></p>
+    </div>
+
+    <form id="playerTwo" class="playerBox">
+      <div class="form-group">
+        <label for="p2Name">Player 2, enter your name:<br> </label>
+        <input id="p2Name" type="text" required />
+        <button id="p2Button" type="button">P2 Name</button>
+      </div>
+    </form>
+  </div>
 </body>

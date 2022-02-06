@@ -1,0 +1,67 @@
+.squares {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.grid {
+
+  display: none;
+  margin: 25%;
+  width: 50%;
+}
+
+#gridDiv  {
+  margin: auto;
+}
+
+#playerOne  {
+  float: left;
+}
+
+#playerTwo  {
+  float: right;
+}
+
+.playerBox  {
+  width: 300px;
+  margin: 10%;
+  margin-top: 20%;
+}
+
+input {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+#nameOne {
+  float: left;
+}
+
+#nameTwo  {
+  float: right;
+}
+
+.names  {
+  display: none;
+  font-size: 70pt;
+  color: #555;
+}
+
+.turnRed  {
+  color: red;
+}
+
+.container  {
+  width: 80%;
+}
+
+p {
+  margin: 5%;
+  margin-bottom: 20%;
+}
